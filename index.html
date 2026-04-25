@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UNO Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>UNO Game (Single Player)</h1>
+
+<div id="game">
+  <div id="bot">
+    <h2>Opponent Cards: <span id="bot-count"></span></h2>
+  </div>
+
+  <div id="center">
+    <h2>Center Card</h2>
+    <div id="center-card"></div>
+    <button onclick="drawCard()">Draw Card</button>
+  </div>
+
+  <div id="player">
+    <h2>Your Cards</h2>
+    <div id="player-cards"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
